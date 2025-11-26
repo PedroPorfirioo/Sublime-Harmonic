@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sublime Harmonic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+
+        /* Top menu */
+        header {
+            background: #3a2f4a;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 28px;
+            color: #b03838;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            padding: 0 40px;
+        }
+
+        .left,
+        .right {
+            width: 45%;
+        }
+
+        .left img,
+        .right img {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .artist-list {
+            margin-top: 20px;
+        }
+
+        .artist {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .artist img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .artist span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        a {
+            color: #005caa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div><strong>Sublime Harmonic</strong></div>
+
+        <nav>
+            <a href="#">Estilos Subliminares</a>
+            <a href="#">Músicas Analisadas</a>
+            <a href="#">Artistas</a>
+            <a href="#">Ferramentas</a>
+        </nav>
+    </header>
+
+    <h1>A música está ouvindo você?</h1>
+
+    <div class="container">
+
+        <!-- LEFT SIDE -->
+        <div class="left">
+            <img src="img1.png" alt="Imagem 1">
+            <p><strong>Caso da semana:</strong> Mais uma música da Xuxa com mensagens obscuras</p>
+
+            <img src="img2.png" alt="Imagem 2">
+            <p>Use nossa nova ferramenta e descubra se sua banda favorita esconde algo!</p>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="right">
+            <h2>Artistas mais procurados:</h2>
+
+            <div class="artist-list">
+                <div class="artist">
+                    <span>Nº1:</span>
+                    <img src="foo.png">
+                    Foo Fighters
+                </div>
+
+                <div class="artist">
+                    <span>Nº2:</span>
+                    <img src="broca.png">
+                    Brocasito
+                </div>
+
+                <div class="artist">
+                    <span>Nº3:</span>
+                    <img src="metallica.png">
+                    Metallica
+                </div>
+
+                <div class="artist">
+                    <span>Nº4:</span>
+                    <img src="lilpeep.png">
+                    Lil Peep
+                </div>
+
+                <div class="artist">
+                    <span>Nº5:</span>
+                    <img src="nirvana.png">
+                    Nirvana
+                </div>
+
+                <p><a href="#">saiba mais</a></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

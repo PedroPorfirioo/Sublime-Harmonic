@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+header {
+    background: #3a2f4a;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: scale(1.6);
+    transform-origin: center;
+}
+
+.titulo-site {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: 700px;
+}
+
+nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pfp {
+    width: 45px;
+    height: 45px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    color: #e84c3d;
+    font-size: 48px;
+}
+
+.container-analise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 40px;
+}
+
+.coluna-audio {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.coluna-texto {
+    flex: 0.8;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222;
+}
+
+.coluna-capa {
+    flex: 1;
+    text-align: center;
+}
+
+.capa-titulo {
+    margin-left: 120px;
+}
+
+.capa-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+.setas {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.seta {
+    background: #3a2f4a;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}

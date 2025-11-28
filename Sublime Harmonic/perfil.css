@@ -1,0 +1,104 @@
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: #fff;
+            }
+
+            header {
+                background: #4e5370;
+                color: white;
+                padding: 15px 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .header {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .header-logo {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                transform: scale(1.6);
+                transform-origin: center;
+            }
+
+            .titulo {
+                font-size: 22px;
+                font-weight: bold;
+            }
+
+            nav {
+                margin-left: 700px;
+            }
+
+            nav a {
+                color: white;
+                margin-left: 30px;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            .pfp {
+                width: 45px;
+                height: 45px;
+            }
+
+
+            
+            .userimg {
+                margin-top: -75px;
+                margin-left: 1425px;
+            }
+
+            .ajuda {
+                margin-top: -30px;
+                margin-left: 1350px;
+                color: black;
+            }
+
+            .notificaçãoimg {
+                margin-top: -44px;
+                margin-left: 1220px;
+            }
+
+            .notificaçãosize {
+                margin-top: -20px;
+                margin-left: 1250px;
+            }
+
+            .linguagemimg {
+                margin-top: -50px;
+                margin-left: 1100px;
+            }
+
+
+            .bolha {
+                background-color: rgb(183, 0, 255);
+                color: white;
+                width: 450px;
+                height: 570px;
+                margin-top: +45px;
+                margin-left: -1400px;
+            }
+
+            .userimg2 {
+                margin-top: -550px;
+                margin-left: -55px;
+            }
+
+            .murilo {
+                background-color: rgb(180, 180, 180);
+                margin-top: -400px;
+                margin-left: 1400px;
+                background-color: rgb(180, 180, 180);
+                margin-top: -25spx;
+                margin-right: -2000;
+                width: 220px;
+            }

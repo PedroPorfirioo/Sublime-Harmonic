@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e5370;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4e5370;
+}
+
+/* Container do formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Títulos e labels */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4e5370;
+}
+
+/* Campos de entrada */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #4e5370;
+}
+
+/* Select */
+form select {
+    background-color: #fff;
+    appearance: none;
+}
+
+/* Botão de envio */
+form input[type="submit"] {
+    background-color: #e84c3d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4e5370;
+}
+
+/* Centralização opcional do botão */
+form center {
+    margin-top: 10px;
+}
+
+p {
+    color: rgb(0, 89, 255);
+}
+
+.caixaLinkCadastro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    height: auto;
+    width: 350px;
+    border-radius: 200px;
+    margin-right: 750px;
+}
